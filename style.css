@@ -149,3 +149,12 @@ video,
 iframe {
     width: 100%;
 }
+
+@media (max-width:650px) {
+
+    main,
+    aside {
+        width: 100%;
+    }
+
+}
