@@ -1,0 +1,139 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: whitesmoke;
+}
+
+p {
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 1.5em;
+}
+
+header,
+footer {
+    background-color: bisque;
+    text-align: center;
+}
+
+header {
+    border-bottom: solid 3px maroon;
+}
+
+
+footer {
+    border-top: solid 3px maroon;
+}
+
+header img {
+    width: 75px;
+}
+
+header h2 {
+    font-style: oblique;
+}
+
+aside>div {
+    border: solid 3px maroon;
+    padding: 1em;
+    background-color: bisque;
+    margin-bottom: 1em;
+}
+
+
+nav {
+    padding: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: maroon;
+    border: solid 1px maroon;
+    padding: .5em;
+    margin: .5em;
+    box-shadow: 6px 6px 12px;
+    cursor: grab;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: maroon;
+    color: bisque;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* tabla y form */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding-left: .5em;
+    border: solid 1px black;
+}
+
+form {}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    width: 100%;
+}
+
+label {
+    text-align: center;
+}
+
+input,
+button0 {
+
+    height: 50px;
+}
+
+textarea {
+    height: 100px;
+}
+
+/* layout */
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+header,
+footer {}
+
+main {
+    padding: 1em;
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+}
+
+aside {
+    padding: 1em;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+video,
+iframe {
+    width: 100%;
+}
